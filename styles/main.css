@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+* {
+    font-family: "Comfortaa", Arial, sans-serif;
+    background-color: rgb(241, 241, 241)
+}
+
+
+.header {
+    display: flex;
+    color: rgb(241, 241, 241, .95);
+    text-shadow: 10%;
+    font-size: 85px;
+    justify-content: end;
+    /* flex-direction: column; */
+    align-items: flex-end;
+    background-image: url(https://s.abcnews.com/images/Business/rimac-nevera-02-ht-iwb-210615_1623784520562_hpEmbed_9x5_992.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    border-radius: .25rem;
+    min-height: 700px;
+}
+
+.headertitle {
+    margin-right: 2rem;
+    margin-bottom: .75rem;
+    background-color: transparent;
+    /* border: 1px dashed lightblue; */
+    border-radius: .25rem;
+    font-style: italic;
+   
+
+
+}
+.choices {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 3fr, 3fr;
+    grid-template-rows: 2fr, 2fr;
+    grid-template-areas:
+        "option option"
+        "option option";
+    /* border: 1px dashed red; */
+
+    font-size: 14px;
+    gap: 20px;
+}
+
+.options {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border: 1px dashed dodgerblue;
+    background-color: rgb(232, 235, 236);
+    padding: 8rem;
+    margin: 0 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+    min-width: 300px;
+    min-height: 150px;
+
+
+}
+
+
+.color {
+    background-color: rgb(232, 235, 236);
+}
+
+.wheel {
+    background-color: rgb(232, 235, 236);
+}
+
+/* 
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+} 
+
+h1 {
+    font-size: 30px
+}
+h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  
+}
+/*  */
+
+#orderButton {
+    display: flex;
+    justify-content: center;
+    /* margin: 1rem 0 2rem 2rem; */
+    padding: 0.5rem;
+    background-color: rgb(72, 139, 227);
+    color: lightgoldenrodyellow;
+    font-size: 1rem;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+.customTitle {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    background-color: rgb(232, 235, 236);
+}
+
+h3 {
+    padding-top: 2rem;
+}
+
